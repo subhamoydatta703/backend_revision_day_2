@@ -12,6 +12,11 @@ app.listen(port, ()=>{
 })
 
 app.use((req, res)=>{
-    console.log("Request received");
+    // console.log("Request received");
+    //   res.send("This is text");
+  res.send({
+    name: "Subhamoy",
+    sec: "A"
+  });
     
 })
